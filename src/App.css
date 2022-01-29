@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+body {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 600px;
+  background: #161a2b;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+h1 {
+  margin: 32px 0;
+  border: #161a2b;
+  user-select: auto;
+  text-align: center;
+  color: black;
+  font-size: xx-large;
+  font-family: inherit;
+}
+
+.btn {
+  background-image: linear-gradient(
+    to right,
+    #614385 0%,
+    #516395 51%,
+    #614385 100%
+  );
+}
+.btn {
+  margin: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  /* box-shadow: 0 0 20px #eee; */
+  border-radius: 10px;
+  display: block;
+}
+
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btndlt {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+.btndlt {
+  margin: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 650;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;
+  /* box-shadow: 0 0 4px #eee; */
+
+  border-radius: 10px;
+  display: block;
+}
+
+.btndlt:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.things {
+  text-align: center;
+  margin: inherit;
+}
+.mb-3 {
+  font-weight: 600;
+  font-size: large;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  background-image: linear-gradient(
+    to right,
+    #614385 0%,
+    #516395 51%,
+    #614385 100%
+  );
+
+  padding: 16px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+.todo-row:nth-child(4n + 1) {
+  background-image: linear-gradient(
+    to right,
+    #614385 0%,
+    #516395 51%,
+    #614385 100%
+  );
+}
+
+.todo-row:nth-child(4n + 2) {
+  background-image: linear-gradient(
+    to right,
+    #614385 0%,
+    #516395 51%,
+    #614385 100%
+  );
+}
+
+.todo-row:nth-child(4n + 3) {
+  background-image: linear-gradient(
+    to right,
+    #614385 0%,
+    #516395 51%,
+    #614385 100%
+  );
+}
